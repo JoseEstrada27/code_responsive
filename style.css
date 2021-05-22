@@ -5,11 +5,24 @@ body{
 .icono{
     width: 3rem;
     height: 3rem;
+    
+}
+h1{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: 1;
+
 }
 header{
     width: 100%;
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: black;
+
 }
 #btn-menu{
     display: none;
@@ -28,9 +41,11 @@ header label:hover{
 }
 .menu ul{
     margin: 0;
+    
     list-style-type: none;
     padding: 0;
     display: flex;
+    justify-content: space-between;
    
 }
 .menu li {
@@ -69,5 +84,7 @@ header label:hover{
    
     #btn-menu:checked ~ .menu {
         margin: 0;
-    }
+        margin-top: 378px;
+        
+}
 }
